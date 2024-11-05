@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/esa-website/static/css/main.2076d2d8.css",
+    "main.js": "/esa-website/static/js/main.8e0ecfc0.js",
+    "static/js/453.290800e0.chunk.js": "/esa-website/static/js/453.290800e0.chunk.js",
+    "static/media/DSCN0020.JPG": "/esa-website/static/media/DSCN0020.45a4af712c4e7176984b.JPG",
+    "static/media/DSCN0037.JPG": "/esa-website/static/media/DSCN0037.e5b7b41e7fe8e416c3e7.JPG",
+    "static/media/DSCN0009.JPG": "/esa-website/static/media/DSCN0009.d05fc4fe72a08b4ccf3d.JPG",
+    "static/media/DSCN0005.JPG": "/esa-website/static/media/DSCN0005.cb885e0a1c139ab51a40.JPG",
+    "static/media/DSCN0021.JPG": "/esa-website/static/media/DSCN0021.9ac694b8f0369a93bd3c.JPG",
+    "static/media/DSCN0013.JPG": "/esa-website/static/media/DSCN0013.97e11ad280876991e3ec.JPG",
+    "static/media/DSCN0044.JPG": "/esa-website/static/media/DSCN0044.0ad81fcb468b877a795a.JPG",
+    "static/media/DSCN0023.JPG": "/esa-website/static/media/DSCN0023.fc30460e65fff3fffc9c.JPG",
+    "static/media/DSCN0017.JPG": "/esa-website/static/media/DSCN0017.b7b819ae0f426d8e853e.JPG",
+    "static/media/DSCN0030.JPG": "/esa-website/static/media/DSCN0030.b2208a03ea125a8d996e.JPG",
+    "static/media/DSCN0041.JPG": "/esa-website/static/media/DSCN0041.73a883278428bada3fbf.JPG",
+    "static/media/DSCN0006.JPG": "/esa-website/static/media/DSCN0006.f41ec5fb8e647e961ffd.JPG",
+    "static/media/DSCN0026.JPG": "/esa-website/static/media/DSCN0026.a33c231d90e258250db6.JPG",
+    "static/media/latin.png": "/esa-website/static/media/latin.fcb3709e4aaebd5c5517.png",
+    "static/media/NightGlow.png": "/esa-website/static/media/NightGlow.15daa1c1d677b316a747.png",
+    "static/media/logo2.png": "/esa-website/static/media/logo2.5cde65cc2cda8e87d19f.png",
+    "static/media/halloween1.png": "/esa-website/static/media/halloween1.b97a4f62a2d9525c4d35.png",
+    "static/media/anna.png": "/esa-website/static/media/anna.2cc81c1332d2bead12a3.png",
+    "static/media/brazil1.png": "/esa-website/static/media/brazil1.f7d23f9d126fa3be625d.png",
+    "static/media/halloween2.png": "/esa-website/static/media/halloween2.ee687de7853210e9edb3.png",
+    "static/media/brazil2.png": "/esa-website/static/media/brazil2.3324616582d1125441ee.png",
+    "static/media/merch1.png": "/esa-website/static/media/merch1.aff56ed75d5c2c09f790.png",
+    "static/media/merch3.png": "/esa-website/static/media/merch3.fb055e4583a905b39852.png",
+    "static/media/merch4.png": "/esa-website/static/media/merch4.c178895a95eb68d91bdd.png",
+    "static/media/merch2.png": "/esa-website/static/media/merch2.6f2d71f9b48f873e1a25.png",
+    "static/media/logo.svg": "/esa-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/esa-website/index.html",
+    "main.2076d2d8.css.map": "/esa-website/static/css/main.2076d2d8.css.map",
+    "main.8e0ecfc0.js.map": "/esa-website/static/js/main.8e0ecfc0.js.map",
+    "453.290800e0.chunk.js.map": "/esa-website/static/js/453.290800e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2076d2d8.css",
+    "static/js/main.8e0ecfc0.js"
+  ]
+}
