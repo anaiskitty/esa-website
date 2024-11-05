@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.brand-container {
+  display: block;
+  text-align: center;
+}
+
+.nav-links-container {
+  display: block;
+  margin-top: 20px; /* add some space between the brand and nav links */
+}
+
+.brand-logo {
+  width: 200px; /* adjust the width to your liking */
+  height: auto;
+  margin-top: 20px; /* add some space between the brand text and the image */
+  margin-bottom: 20px;
+  margin: 20px;
+  display: block;
+  text-align: center;
+}
+
+.brand-logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100 px;
+  width: 50%; 
+  opacity: 1;
+}
+
+.image-containere{
+  display: block;
+}
+
+.navigation {
+  background-color: #0e122f;
+}
+
+
+.bg-dark {
+  background-color: #131836 !important; /* dark blue background color */
+}
+
+.navbar {
+  position: relative;
+}
+
+
+.archive {
+  height: 100vh; /* Optional: Make the archive take full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically if needed */
+}
+
+.dm-serif {
+  font-family: 'DM Serif Display', serif; /* Apply DM Serif font */
+}
+
