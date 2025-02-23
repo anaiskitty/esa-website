@@ -32,7 +32,7 @@ const newsItems = [
 // Create a custom theme
 const theme = createTheme({
   typography: {
-    fontFamily: 'Racing Sans One, sans-serif', // Set the font family
+    fontFamily: '"Noto Sans", sans-serif', 
   },
 });
 

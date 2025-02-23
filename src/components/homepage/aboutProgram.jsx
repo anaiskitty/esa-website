@@ -5,7 +5,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 // Create a custom theme to apply the font
 const theme = createTheme({
   typography: {
-    fontFamily: '"DM Serif Text", "Bebas Neue", "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif', // Set the font
+    fontFamily: '"Novo Sans", "DM Serif Text", "Bebas Neue", "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif', // Set the font
   },
 });
 

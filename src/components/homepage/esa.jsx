@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 // Create a custom theme to apply the Bebas Neue font
 const theme = createTheme({
   typography: {
-    fontFamily: '"Bebas Neue", "Helvetica", "Arial", sans-serif', // Set Bebas Neue as the default font
+    fontFamily: '"Novo Sans", "Bebas Neue", "Helvetica", "Arial", sans-serif', // Set Bebas Neue as the default font
   },
 });
 

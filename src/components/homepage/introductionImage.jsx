@@ -3,7 +3,7 @@ import { Box, Typography, Button } from '@mui/material';
 import { NavLink } from 'react-router-dom'; // Import NavLink
 import heroImage from './../../../src/images/latin.png'; 
 
-const HeroSection = () => {
+const IntroductionImage = () => {
   return (
     <Box 
       sx={{
@@ -43,7 +43,7 @@ const HeroSection = () => {
             fontSize: '3rem', 
             fontWeight: 'bold', 
             mb: 2,
-            fontFamily: "Novo Sans"
+            fontFamily: '"DM Serif Text", serif' // Apply DM Serif Text font
           }}
         >
           European Students Association
@@ -52,29 +52,14 @@ const HeroSection = () => {
           variant="h5" 
           sx={{ 
             mb: 4,
-            fontFamily: '"Noto Sans", sans-serif'
+            fontFamily: '"DM Serif Text", serif' // Apply DM Serif Text font
           }}
         >
           
         </Typography>
-        <NavLink to="/about" style={{ textDecoration: 'none' }}> 
-          <Button 
-            variant="outlined" 
-            sx={{ 
-              color: 'white', 
-              borderColor: 'white', 
-              '&:hover': { 
-                backgroundColor: 'white', 
-                color: 'black' 
-              } 
-            }}
-          >
-            Learn More
-          </Button>
-        </NavLink>
       </Box>
     </Box>
   );
 };
 
-export default HeroSection;
+export default IntroductionImage;

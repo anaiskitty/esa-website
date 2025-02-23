@@ -9,7 +9,6 @@ const PreorderForm = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      // Replace with your API endpoint
       const response = await fetch('https://your-api-endpoint.com/preorder', {
         method: 'POST',
         headers: {
