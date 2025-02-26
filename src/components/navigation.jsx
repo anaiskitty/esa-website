@@ -8,24 +8,27 @@ function Navigation() {
     display: 'flex', // Use flexbox for layout
     justifyContent: 'space-between', // Space out the items evenly
     alignItems: 'center', // Center items vertically
+    flexWrap: 'wrap', // Allow items to wrap on smaller screens
   };
 
   const logoStyle = {
-    width: '200px',
+    width: '150px', // Adjust logo size for mobile
     height: 'auto',
     marginLeft: '20px', // Add margin to the left of the logo
   };
 
   const brandStyle = {
     fontFamily: "'DM Serif Display', serif", // Font family for the brand
-    fontSize: '32px', // Font size for the brand
+    fontSize: '24px', // Adjust font size for mobile
     color: '#131836', // Text color for the brand
+    margin: '0 10px', // Add margin for spacing
   };
 
   const linkStyle = {
     color: '#131836', // Text color for the links
     textDecoration: 'none', // Remove underline from links
-    margin: '0 10px', // Margin between links
+    margin: '5px 10px', // Margin between links
+    fontSize: '16px', // Adjust font size for mobile
   };
 
   const dividerStyle = {
