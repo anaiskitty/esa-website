@@ -6,6 +6,7 @@ function Merch() {
   return (
     <div className="merch">
       <Header />
+      <main style={{ backgroundColor: '#ebf2fe', padding: '64px 0' }}> 
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
@@ -28,6 +29,7 @@ function Merch() {
           </div>
         </div>
       </div>
+      </main>
       <Footer />
     </div>
   );

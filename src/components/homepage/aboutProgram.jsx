@@ -5,7 +5,19 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 // Create a custom theme to apply the font
 const theme = createTheme({
   typography: {
-    fontFamily: '"Novo Sans", "DM Serif Text", "Bebas Neue", "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif', // Set the font
+    fontFamily: '"Novo Sans", "Roboto", "Helvetica", "Arial", sans-serif', // Set the font for body text
+    h2: {
+      fontFamily: '"DM Serif Display", serif', // Set the font for h2 headers
+    },
+    h5: {
+      fontFamily: '"DM Serif Display", serif', // Set the font for h5 headers
+    },
+    body1: {
+      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif', // Set the font for body text
+    },
+    body2: {
+      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif', // Set the font for body text in cards
+    },
   },
 });
 
@@ -56,7 +68,7 @@ const AboutProgram = () => {
                     Leadership Development
                   </Typography>
                   <Typography variant="body2">
-                    ... put a third one... if we want
+                    Attend events that help nurture leadership qualities such as discussions with embassies and talks.
                   </Typography>
                 </CardContent>
               </Card>

@@ -17,8 +17,8 @@ const HomePage = () => {
       <main>
         <IntroductionImage />
         <AboutProgram />
-        <LatestNews />
         <InfoEsa />
+        <LatestNews />
         <HeroSection />
 
       </main>

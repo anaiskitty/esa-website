@@ -19,8 +19,9 @@ const MerchPage = () => {
   return (
     <div>
       <Header />
+      <main style={{ backgroundColor: '#ebf2fe', padding: '64px 0' }}>
       <Container maxWidth="lg" style={{ marginTop: '32px' }}> {/* Improved top spacing */}
-        <Typography variant="h2" component="h1" align="center" gutterBottom style={{ fontFamily: 'Racing Sans One, sans-serif' }}>
+        <Typography variant="h2" component="h1" align="center" gutterBottom   style={{ fontFamily: '"DM Serif Display", serif' }} className="text-center mt-5">
           Merchandise
         </Typography>
         <Grid container spacing={3} justifyContent="center">
@@ -31,6 +32,7 @@ const MerchPage = () => {
           ))}
         </Grid>
       </Container>
+      </main>
       <Footer />
     </div>
   );

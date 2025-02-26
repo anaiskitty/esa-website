@@ -7,10 +7,12 @@ function Archive() {
   return (
     <div>
       <Header />
+      <main style={{ backgroundColor: '#ebf2fe', padding: '64px 0' }}> 
       <div className="archive text-center"> 
-        <h1 className="font-weight-light dm-serif">Archive</h1> 
+        <h1 className="font-weight-light dm-serif">Photo Archive</h1> 
         <PhotoGallery />
       </div>
+      </main>
       <Footer />
     </div>
   );

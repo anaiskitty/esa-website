@@ -6,7 +6,7 @@ function Posts() {
     <div className="home">
       <div style={{ padding: '20px' }}>
         <div className="container">
-          <Link to="/blog/this-is-a-post-title">
+          <Link to="/blog/halloween-2024" style={linkStyle}>
             <div className="row align-items-center my-5">
               <div className="col-lg-7">
                 <img
@@ -16,7 +16,7 @@ function Posts() {
                 />
               </div>
               <div className="col-lg-5">
-                <h1 className="font-weight-light">This is a post title</h1>
+                <h1 className="font-weight-light">ESA Halloween 2024</h1>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry's standard dummy
@@ -28,7 +28,7 @@ function Posts() {
           </Link>
         </div>
         <div className="container">
-          <Link to="/blog/this-is-another-post-title">
+          <Link to="/blog/this-is-another-post-title" style={linkStyle}>
             <div className="row align-items-center my-5">
               <div className="col-lg-7">
                 <img
@@ -38,7 +38,7 @@ function Posts() {
                 />
               </div>
               <div className="col-lg-5">
-                <h1 className="font-weight-light">This is another post title</h1>
+                <h1 className="font-weight-light">Welcome to the ESA Blog</h1>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry's standard dummy
@@ -50,7 +50,7 @@ function Posts() {
           </Link>
         </div>
         <div className="container">
-          <Link to="/blog/this-is-a-final-post-title">
+          <Link to="/blog/this-is-a-final-post-title" style={linkStyle}>
             <div className="row align-items-center my-5">
               <div className="col-lg-7">
                 <img
@@ -60,7 +60,7 @@ function Posts() {
                 />
               </div>
               <div className="col-lg-5">
-                <h1 className="font-weight-light">This is a final post title</h1>
+                <h1 className="font-weight-light">Guide to Navigating Tsinghua</h1>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry's standard dummy
@@ -75,5 +75,12 @@ function Posts() {
     </div>
   );
 }
+
+// Define the link styles
+const linkStyle = {
+  textDecoration: 'none', // Remove underline
+  color: 'black', // Set text color to black
+  cursor: 'pointer', // Change cursor to pointer
+};
 
 export default Posts;

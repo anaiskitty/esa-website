@@ -17,7 +17,7 @@ const MerchItem = ({ name, primaryImage, secondaryImage }) => {
         style={{ objectFit: 'cover', height: '100%' }} // Ensure the image covers the area
       />
       <CardContent>
-        <Typography variant="h5" component="div" style={{ fontFamily: 'Racing Sans One, sans-serif' }}>
+        <Typography variant="h5" component="div" style={{ fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif'}}>
           {name}
         </Typography>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%' }}>

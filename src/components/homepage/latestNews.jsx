@@ -35,7 +35,19 @@ const newsItems = [
 // Create a custom theme
 const theme = createTheme({
   typography: {
-    fontFamily: '"Noto Sans", sans-serif', 
+    fontFamily: '"Noto Sans", sans-serif', // Set the font for body text
+    h4: {
+      fontFamily: '"Noto Sans", sans-serif', // Set the font for h4 headers
+    },
+    h6: {
+      fontFamily: '"Noto Sans", sans-serif', // Set the font for h6 headers
+    },
+    body1: {
+      fontFamily: '"Noto Sans", sans-serif', // Set the font for body text
+    },
+    body2: {
+      fontFamily: '"Noto Sans", sans-serif', // Set the font for body text in cards
+    },
   },
 });
 
@@ -58,7 +70,7 @@ const LatestNews = () => {
   };
 
   return (
-    <ThemeProvider theme={theme}> {/* Wrap with ThemeProvider */}
+    <ThemeProvider theme={theme}>
       <section style={{ padding: '16px', backgroundColor: '#ebf2fe' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 16px' }}>
           <Typography variant="h4" align="center" gutterBottom>
@@ -80,7 +92,7 @@ const LatestNews = () => {
                     right: 0,
                     backgroundColor: 'rgba(0, 0, 0, 0.5)',
                     color: 'white',
-                    padding: ' 16px'
+                    padding: '16px'
                   }}>
                     <Typography variant="h6" gutterBottom>
                       {newsItems[currentSlide].title}
@@ -90,12 +102,12 @@ const LatestNews = () => {
                     </Typography>
                   </div>
                 </div>
-                <Button></Button> {/*add a link to be able to read articles*/}
+                <Button></Button> {/* Add a link to be able to read articles */}
               </CardContent>
             </Card>
             <Button
               variant="outlined"
-              style={{ position: 'absolute', top: '50%', left: '16px', transform: 'translateY(-50%)', zIndex: 10 }}
+              style={{ position: 'absolute', top: '50%', left: '16px', transform: 'translateY(- 50%)', zIndex: 10 }}
               onClick={prevSlide}
             >
               <ChevronLeftIcon />
@@ -113,11 +125,12 @@ const LatestNews = () => {
               <Button
                 key={index}
                 style={{
-                  height: '8px',
-                  width: '8px',
+                  height: '6px', // Smaller height for the indicator
+                  width: '6px', // Smaller width for the indicator
                   borderRadius: '50%',
                   margin: '0 4px',
-                  backgroundColor: index === currentSlide ? '#3f51b5' : '#ccc'
+                  backgroundColor: index === currentSlide ? '#3f51b5' : '#ccc',
+                  border: index === currentSlide ? 'none' : '1px solid #ccc' // Optional: add border for inactive indicators
                 }}
                 onClick={() => setCurrentSlide(index)}
               />

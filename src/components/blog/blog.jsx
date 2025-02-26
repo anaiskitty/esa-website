@@ -7,10 +7,12 @@ function Blog() {
   return (
     <div className="home">
       <Header />
+      <main style={{ backgroundColor: '#ebf2fe', padding: '64px 0' }}> 
       <div class="container">
-        <h1 className="text-center mt-5">Blogs</h1>
+        <h1 style={{ fontFamily: '"DM Serif Display", serif' }} className="text-center mt-5">Blog</h1>
         <Outlet />
       </div>
+      </main>
      <Footer />
     </div>
   );

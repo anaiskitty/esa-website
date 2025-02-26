@@ -4,10 +4,16 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Image from "./../../../src/images/brazil2.png";
 import { NavLink } from 'react-router-dom';
 
-// Create a custom theme to apply the Bebas Neue font
+// Create a custom theme to apply the font
 const theme = createTheme({
   typography: {
-    fontFamily: '"Novo Sans", "Bebas Neue", "Helvetica", "Arial", sans-serif', // Set Bebas Neue as the default font
+    fontFamily: '"Noto Sans", "Bebas Neue", "Helvetica", "Arial", sans-serif', // Set Noto Sans as the default font for body text
+    h4: {
+      fontFamily: '"DM Serif Display", serif', // Set Bebas Neue for h4 headers
+    },
+    body1: {
+      fontFamily: '"Noto Sans", sans-serif', // Set Noto Sans for body text
+    },
   },
 });
 
