@@ -1,6 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
-import { NavLink } from 'react-router-dom'; // Import NavLink
+import { Box, Typography} from '@mui/material';
 import heroImage from './../../../src/images/latin.png'; 
 
 const IntroductionImage = () => {
