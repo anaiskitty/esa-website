@@ -13,19 +13,22 @@ const newsItems = [
     id: 1,
     title: "ESA and USSA's recent Halloween event",
     date: "November 2, 2024",
-    image: Halloween
+    image: Halloween,
+    link: "/halloween"
   },
   {
     id: 2,
     title: "Night Glow by ESA",
     date: "September 28, 2024",
-    image: NightGlow
+    image: NightGlow,
+    link: "/nightglow"
   },
   {
     id: 3,
     title: "Welcome new students - a guide by ESA",
     date: "August 22, 2024",
-    image: Guide
+    image: Guide,
+    link: "/guide"
   }
 ];
 
@@ -87,6 +90,7 @@ const LatestNews = () => {
                     </Typography>
                   </div>
                 </div>
+                <Button></Button> {/*add a link to be able to read articles*/}
               </CardContent>
             </Card>
             <Button
